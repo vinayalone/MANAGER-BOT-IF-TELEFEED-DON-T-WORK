@@ -76,8 +76,8 @@ async def perform_restart_sequence():
         await click_button_by_text(user_client, TARGET_BOT_USERNAME, "Bot Settings")
         await click_button_by_text(user_client, TARGET_BOT_USERNAME, "Stop")
         
-        logger.info("⏳ Waiting 125s for cleanup...")
-        await asyncio.sleep(125) 
+        logger.info("⏳ Waiting 25s for cleanup...")
+        await asyncio.sleep(25) 
         
         await click_button_by_text(user_client, TARGET_BOT_USERNAME, "Go Back")
         await click_button_by_text(user_client, TARGET_BOT_USERNAME, "Start")
