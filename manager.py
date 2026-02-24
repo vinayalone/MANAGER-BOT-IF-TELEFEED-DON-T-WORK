@@ -23,7 +23,7 @@ PHONE_NUMBER_BUTTON = os.environ.get("PHONE_NUMBER_BUTTON", "919416526259 »")
 # Monitoring Details
 # Channel B ID (Where the autoforward bot sends messages)
 MONITOR_CHANNEL_ID = int(os.environ.get("MONITOR_CHANNEL_ID", "-100123456789")) 
-CHECK_INTERVAL = 120  # Seconds
+CHECK_INTERVAL = 160  # Seconds
 RESTART_COOLDOWN = 180 # 3 minutes (Wait for bot to actually start forwarding again)
 
 # Worker Access
